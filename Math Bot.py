@@ -34,7 +34,12 @@ def apply_behaviour():
     @bot.event
     async def on_message(msg):
         global result
-        if msg.content.upper() == "->?":
+
+        if msg.content.lower() == "->help":
+            msg_to_send = "Commands: [->? (get question), ->=(see answer), ->help, ->'your answer here' (enter answer)]"
+            await bot.send_message(msg.channel, msg_to_send)
+
+        elif msg.content.upper() == "->?":
             msg_to_send = gen_question()
             await bot.send_message(msg.channel, msg_to_send)
 
@@ -45,10 +50,9 @@ def apply_behaviour():
 
             # Find the entered value
             if msg.content[2:].isdigit():
-                entered = msg.content[2:]
 
                 # Check if the entered value equals the result
-                if entered == str(result):
+                if msg.content[2:] == str(result):
                     await bot.send_message(msg.channel, "Correct, good job.")
                 else:
                     await bot.send_message(msg.channel, "Wrong, try again.")
