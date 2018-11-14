@@ -16,4 +16,6 @@ The bot generates addition questions by randoming 2 numbers (between 3 and 100) 
   - Checks if 'number' is the answer: -> (followed by a number)
   
   - Gives the answer: ->=
+  
+  - Gives a list of all the available commands for the bot: ->help
 </hr>
