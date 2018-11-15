@@ -19,3 +19,18 @@ The bot generates addition questions by randoming 2 numbers (between 3 and 100) 
   
   - **Gives a list of all the available commands for the bot:** ->help
 </hr>
+
+
+**Other features to add:**
+
+- Sending personal messages, rather than in the server. 
+
+- Generating questions for *, /, and -
+
+- Creating a math module/class to do all the calculations
+
+- Adding a difficulty level
+
+- Generating more complex math problems (polynomials, inequilities, qubic equations, differentiation & integration)
+
+- Gving the setps of solving the problem for more complex problems
