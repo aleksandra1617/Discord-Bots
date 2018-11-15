@@ -8,18 +8,6 @@ https://discordpy.readthedocs.io/en/latest/api.html
 
 The bot generates addition questions by randoming 2 numbers (between 3 and 100) and adding them together. The user can issue commands by typing -> and a specific word/symbol, example ->? would give a math's question.
 
-<details><summary>Commands</summary>
-<hr>
-  
-  - **Gives a math question:** ->?
-  
-  - **Checks if 'number' is the answer:** -> (followed by a number)
-  
-  - **Gives the answer:** ->=
-  
-  - **Gives a list of all the available commands for the bot:** ->help
-</hr>
-
 
 **Other features to add:**
 
@@ -34,3 +22,16 @@ The bot generates addition questions by randoming 2 numbers (between 3 and 100) 
 - Generating more complex math problems (polynomials, inequilities, qubic equations, differentiation & integration)
 
 - Gving the setps of solving the problem for more complex problems
+
+
+<details><summary>Commands</summary>
+<hr>
+  
+  - **Gives a math question:** ->?
+  
+  - **Checks if 'number' is the answer:** -> (followed by a number)
+  
+  - **Gives the answer:** ->=
+  
+  - **Gives a list of all the available commands for the bot:** ->help
+</hr>
