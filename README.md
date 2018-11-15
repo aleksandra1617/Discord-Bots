@@ -1,4 +1,4 @@
-# Discord-Bots
+# Discord-Bots :robot: :robot: :robot:
 A collection of bot behaviours written in Python.
 
 Documentation for the library can be found here: 
