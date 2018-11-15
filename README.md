@@ -1,5 +1,5 @@
-# Discord-Bots :robot: :robot: :robot:
-A collection of bot behaviours written in Python.
+# Discord-Bots
+A collection of bot behaviours :robot: written in Python.
 
 Documentation for the library can be found here: 
 https://discordpy.readthedocs.io/en/latest/api.html
