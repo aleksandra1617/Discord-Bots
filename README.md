@@ -13,7 +13,7 @@ The bot generates addition questions by randoming 2 numbers (between 3 and 100) 
 
 - Sending personal messages, rather than in the server. 
 
-- Generating questions for *, /, and -
+- Generating questions for :heavy_minus_sign:, :heavy_multiplication_x: and :heavy_division_sign:
 
 - Creating a math module/class to do all the calculations
 
