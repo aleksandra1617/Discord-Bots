@@ -24,6 +24,7 @@ The bot generates addition questions by randoming 2 numbers (between 3 and 100) 
 - Gving the setps of solving the problem for more complex problems
 
 
+
 <details><summary>Commands</summary>
 <hr>
   
