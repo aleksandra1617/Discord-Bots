@@ -60,7 +60,7 @@ def apply_behaviour():
                 await bot.send_message(msg.channel, "Please enter a number.")
 
     # Run the bot using it's unique token (login info of the bot)
-    bot.run("NTEyMjk1ODIzMDY1NzQzMzY3.Ds3Y9A.66qnRel5v22QpvF_WoNW9GLqvW4")
+    bot.run(Token)
 
 
 apply_behaviour()
