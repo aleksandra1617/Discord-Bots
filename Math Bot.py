@@ -55,7 +55,7 @@ def apply_behaviour():
                 if msg.content[2:] == str(result):
                     await bot.send_message(msg.channel, "Correct, good job.")
                 else:
-                    await bot.send_message(msg.channel, "Wrong, try again.")
+                    await bot.send_message(msg.channel, "Incorrect, try again.")
             else:
                 await bot.send_message(msg.channel, "Please enter a number.")
 
